@@ -2,7 +2,7 @@ import React from "react";
 
 type SquareProps = {
   onClick: () => void;
-  value: string;
+  value: string | null;
 };
 
 export default function Square(props: SquareProps) {

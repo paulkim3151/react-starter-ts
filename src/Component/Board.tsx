@@ -11,7 +11,7 @@ export default function Board(props: BoardProps) {
   const renderSquare = (i: number) => {
     return (
       <Square
-        value={props.squares[i] as string}
+        value={props.squares[i]}
         onClick={() => props.onClick(i)}
       />
     );
