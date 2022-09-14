@@ -1,7 +1,7 @@
 import React from "react";
 
 type SquareProps = {
-  onClick: React.MouseEventHandler;
+  onClick: () => void;
   value: string;
 };
 
